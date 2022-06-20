@@ -13,4 +13,5 @@ const Style = styled.h1`
   font-weight: ${(props) => (props.isBold ? "bold" : "normal")};
   font-size: ${(props) => props.size || "21px"};
   margin: 1.2rem 0;
+  word-wrap: break-word;
 `;
