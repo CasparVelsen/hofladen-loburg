@@ -1,6 +1,7 @@
 import Title from "./modules/Title";
 import Paragraph from "./modules/Paragraph";
 import styled from "styled-components";
+import Button from "./modules/Button";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         weight={"lighter"}
       />
       <Test>test</Test>
+      <Button text={"something"} secondary />
     </main>
   );
 }
