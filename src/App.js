@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Title from "./modules/Title";
+import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <Test>test</Test>
+      <Title text={"Test Headline"} isAccent={true} isBold={true} />
+      <Test>test</Test>
+    </main>
   );
 }
+
+const Test = styled.div`
+  border: 0.5px solid grey;
+`;
 
 export default App;
