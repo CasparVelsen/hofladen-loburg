@@ -19,15 +19,15 @@ export default function Title({ children, titleStyle, level }) {
   return (
     <>
       {level === 1 && (
-        <h1 className={`title ${checkTitleStyle}`}>{children}</h1>
+        <h1 className={`title--1 ${checkTitleStyle}`}>{children}</h1>
       )}
 
       {level === 2 && (
-        <h2 className={`title ${checkTitleStyle}`}>{children}</h2>
+        <h2 className={`title--2 ${checkTitleStyle}`}>{children}</h2>
       )}
 
       {level === 3 && (
-        <h3 className={`title ${checkTitleStyle}`}>{children}</h3>
+        <h3 className={`subtitle ${checkTitleStyle}`}>{children}</h3>
       )}
 
       {level === 4 && (
