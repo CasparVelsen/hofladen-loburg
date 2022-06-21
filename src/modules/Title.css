@@ -1,0 +1,66 @@
+:root {
+  --primary: black;
+  --secondary: green;
+  --accent: orange;
+  --danger: red;
+  --succes: blue;
+  --white: white;
+  --dark: grey;
+}
+
+.title {
+  margin: 1rem 0;
+  width: fit-content;
+}
+
+/* Ttile Colors and Styles */
+
+.primary {
+  color: var(--primary);
+}
+
+.secondary {
+  color: var(--secondary);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.danger {
+  color: var(--danger);
+}
+
+.succes {
+  color: var(--danger);
+}
+
+.primary--underlined {
+  color: var(--primary);
+  border: none;
+  border-bottom: 2px solid var(--primary);
+}
+
+.secondary--underlined {
+  color: var(--secondary);
+  border: none;
+  border-bottom: 2px solid var(--secondary);
+}
+
+.accent--underlined {
+  color: var(--accent);
+  border: none;
+  border-bottom: 2px solid var(--accent);
+}
+
+.danger--underlined {
+  color: var(--danger);
+  border: none;
+  border-bottom: 2px solid var(--danger);
+}
+
+.succes--underlined {
+  color: var(--succes);
+  border: none;
+  border-bottom: 2px solid var(--succes);
+}

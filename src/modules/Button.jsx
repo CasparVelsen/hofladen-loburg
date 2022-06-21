@@ -24,8 +24,6 @@ export default function Button({
   const checkButtonStyle = STYLES.includes(buttonStyle)
     ? buttonStyle
     : STYLES[0];
-  console.log(buttonStyle);
-  console.log(STYLES.includes());
   const checkButtonSize = SIZE.includes(buttonSize) ? buttonSize : SIZE[0];
 
   return (
