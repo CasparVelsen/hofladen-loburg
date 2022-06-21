@@ -1,4 +1,5 @@
-import Title from "./modules/Title";
+import Paragraph from "./components/Paragraph";
+import Title from "./components/Title";
 
 function App() {
   return (
@@ -6,6 +7,9 @@ function App() {
       <Title level={1} titleStyle="secondary--underlined">
         Hofladen Loburg
       </Title>
+      <Paragraph textStyle="normal" textColor="secondary">
+        sjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndj
+      </Paragraph>
     </main>
   );
 }
