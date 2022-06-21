@@ -1,0 +1,90 @@
+:root {
+  --primary: green;
+  --warning: orange;
+  --danger: red;
+  --succes: blue;
+  --white: white;
+  --dark: grey;
+}
+
+.btn {
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Button Colors and Styles */
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+}
+
+.warning {
+  background-color: var(--warning);
+  color: var(--dark);
+  border: none;
+}
+
+.danger {
+  background-color: var(--danger);
+  color: var(--white);
+  border: none;
+}
+
+.succes {
+  background-color: var(--succes);
+  color: var(--white);
+  border: none;
+}
+
+.primary--outline {
+  background-color: transparent;
+  color: var(--primary);
+  border: none;
+  border: 2px solid var(--primary);
+}
+
+.warning--outline {
+  background-color: transparent;
+  color: var(--warning);
+  border: none;
+  border: 2px solid var(--warning);
+}
+
+.danger--outline {
+  background-color: transparent;
+  color: var(--danger);
+  border: none;
+  border: 2px solid var(--danger);
+}
+
+.succes--outline {
+  background-color: transparent;
+  color: var(--succes);
+  border: none;
+  border: 2px solid var(--succes);
+}
+
+/* Button Sizes */
+
+.small {
+  padding: 10px 25px;
+  font-size: 14px;
+}
+
+.medium {
+  padding: 10px 25px;
+  font-size: 16px;
+}
+
+.large {
+  padding: 10px 25px;
+  font-size: 18px;
+}

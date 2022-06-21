@@ -1,17 +1,9 @@
-import styled from "styled-components";
+import "./Paragraph.css";
 
 export default function Paragraph({ text, color, weight, size }) {
   return (
-    <Style color={color} weight={weight} size={size}>
+    <p className={"paragraph"} color={color} weight={weight} size={size}>
       {text}
-    </Style>
+    </p>
   );
 }
-
-const Style = styled.p`
-  color: ${(props) => props.color || "black"};
-  font-weight: ${(props) => props.weight || "normal"};
-  font-size: ${(props) => props.size || "16px"};
-  margin: 1rem 0;
-  word-wrap: break-word;
-`;
