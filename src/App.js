@@ -1,14 +1,18 @@
-import Paragraph from "./components/Paragraph/Paragraph";
-import Title from "./components/Title/Title";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import AssortmentPage from "./pages/AssortmentPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
     <main>
-      <Title level={1}>Hofladen Loburg</Title>
-      <Title level={3}>Hofladen Loburg</Title>
-      <Paragraph textColor="light">
-        sjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndj
-      </Paragraph>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/assortment" element={<AssortmentPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
     </main>
   );
 }
