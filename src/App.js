@@ -4,13 +4,9 @@ import Title from "./components/Title/Title";
 function App() {
   return (
     <main>
-      <Title level={1} titleStyle="primary">
-        Hofladen Loburg
-      </Title>
-      <Title level={3} titleStyle="primary">
-        Hofladen Loburg
-      </Title>
-      <Paragraph textStyle="normal" textColor="light">
+      <Title level={1}>Hofladen Loburg</Title>
+      <Title level={3}>Hofladen Loburg</Title>
+      <Paragraph textColor="light">
         sjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndjsjcnsjdcnkjsdncjksnckjsndjcndj
       </Paragraph>
     </main>
