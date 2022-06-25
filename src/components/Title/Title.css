@@ -12,6 +12,31 @@
   margin: 1rem 0;
   width: fit-content;
 }
+.title--1 {
+  font-size: 1.602rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  width: fit-content;
+}
+.title--2 {
+  font-size: 1.424rem;
+  font-weight: 600;
+  margin: 1rem 0;
+  width: fit-content;
+}
+.title--3 {
+  font-size: 1.266rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  width: fit-content;
+}
+
+.title--4 {
+  font-size: 1.125rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  width: fit-content;
+}
 
 /* Ttile Colors and Styles */
 
