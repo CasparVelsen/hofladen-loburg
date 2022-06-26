@@ -18,4 +18,18 @@ export default createGlobalStyle`
   input, label, button, textarea {
     font-size: 1em;
   }
+
+  header {
+      padding: 0 20px;
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(90, 125, 90);
+      font-size: 1.3rem;
+      color: white;
+
+  }
+
+
 `;
