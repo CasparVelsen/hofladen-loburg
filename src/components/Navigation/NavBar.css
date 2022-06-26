@@ -39,7 +39,7 @@ li {
     display: none;
   }
   .mobile-navigation ul {
-    background-color: rgb(90, 125, 90);
+    background-color: green;
     height: calc(100vh - 79px);
     width: 100vw;
     position: absolute;

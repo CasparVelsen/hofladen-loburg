@@ -25,7 +25,7 @@ export default createGlobalStyle`
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: rgb(90, 125, 90);
+      background-color: green;
       font-size: 1.3rem;
       color: white;
 
