@@ -3,13 +3,13 @@ import HomePage from "./pages/HomePage";
 import AssortmentPage from "./pages/AssortmentPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
-import NavBar from "./components/Navigation/NavBar";
+import NavBar from "./modules/Navigation/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <header>
-        <div>Logo</div>
         <NavBar />
       </header>
       <main>
@@ -20,7 +20,9 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
