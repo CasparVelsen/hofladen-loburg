@@ -1,4 +1,5 @@
 import Button from "../modules/Button/Button";
+import Paragraph from "../modules/Paragraph/Paragraph";
 import Title from "../modules/Title/Title";
 
 export default function HomePage() {
@@ -24,6 +25,8 @@ export default function HomePage() {
       </Button>
 
       <Title titleStyle="normal">Title example</Title>
+      <Title titleStyle="gray">Title example</Title>
+      <Title titleStyle="light">Title example</Title>
       <Title titleStyle="secondary">Title example</Title>
       <Title titleStyle="accent">Title example</Title>
       <Title titleStyle="danger">Title example</Title>
@@ -46,6 +49,42 @@ export default function HomePage() {
       <Title titleStyle="primary" level={4}>
         Title example
       </Title>
+
+      <Paragraph textColor="normal">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="gray">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="light">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="primary">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="secondary">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="accent">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
+      <Paragraph textColor="danger">
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+        chkdbchsdbchjsdbcjhsdbchsbdncjsdncjsdncjsdncjsdncjsdncjsdncjsdncjsdnckjn
+      </Paragraph>
     </div>
   );
 }

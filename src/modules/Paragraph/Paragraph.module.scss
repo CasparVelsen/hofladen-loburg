@@ -3,7 +3,7 @@
 .paragraph {
   font-size: 16px;
   word-wrap: break-word;
-  width: fit-content;
+  width: 100%;
 }
 
 /* Paragraph text style */
@@ -26,16 +26,24 @@
 
 /* Paragraph text color */
 
+.normal {
+  color: $text-black-matt;
+}
+
+.gray {
+  color: $text-gray;
+}
+
+.light {
+  color: $text-white-matt;
+}
+
 .primary {
   color: $color-primary;
 }
 
 .secondary {
   color: $color-secondary;
-}
-
-.light {
-  color: $color-primary-light;
 }
 
 .accent {

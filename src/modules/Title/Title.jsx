@@ -3,6 +3,8 @@ import classNames from "classnames";
 
 const STYLES = [
   "normal",
+  "gray",
+  "light",
   "secondary",
   "accent",
   "danger",

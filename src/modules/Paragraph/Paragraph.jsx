@@ -3,7 +3,15 @@ import classNames from "classnames";
 
 const WEIGHTS = ["normal", "bold", "italic", "small"];
 
-const STYLES = ["primary", "secondary", "light", "accent", "danger"];
+const STYLES = [
+  "normal",
+  "gray",
+  "primary",
+  "secondary",
+  "light",
+  "accent",
+  "danger",
+];
 
 export default function Paragraph({ children, textStyle, textColor }) {
   const checkTextStyle = WEIGHTS.includes(textStyle) ? textStyle : WEIGHTS[0];
