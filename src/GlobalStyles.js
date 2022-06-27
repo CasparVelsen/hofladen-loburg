@@ -31,5 +31,7 @@ export default createGlobalStyle`
 
   }
 
-
+  .view {
+    min-height: calc(100vh - 80px - 1rem);
+  }
 `;

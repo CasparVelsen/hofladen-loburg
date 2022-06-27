@@ -1,3 +1,7 @@
 export default function AboutPage() {
-  return <h1>Aboutpage</h1>;
+  return (
+    <div className="view">
+      <h1>AboutPage</h1>
+    </div>
+  );
 }

@@ -1,3 +1,7 @@
 export default function ImprintPage() {
-  return <h1>ImprintPage</h1>;
+  return (
+    <div className="view">
+      <h1>ImprintPage</h1>
+    </div>
+  );
 }
