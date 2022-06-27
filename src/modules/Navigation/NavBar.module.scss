@@ -30,6 +30,10 @@
   display: none;
 }
 
+.mobileNavBar {
+  overflow-y: hidden;
+}
+
 @media (max-width: 768px) {
   .mobileNavigation {
     display: flex;
