@@ -1,7 +1,10 @@
+@import "src/styles/spacing";
+@import "src/styles/variables";
+
 .nav ul {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: s(5);
 }
 .nav li {
   list-style: none;
@@ -14,30 +17,29 @@
   width: 100%;
 }
 
-.styled-link {
+.styledLink {
   width: fit-content;
   display: flex;
   justify-content: center;
   text-decoration: none;
-  color: black;
-  padding: 10px;
+  padding: s(2);
   color: white;
 }
 
-.mobile-navigation {
+.mobileNavigation {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .mobile-navigation {
+  .mobileNavigation {
     display: flex;
     align-items: center;
   }
   .navigation {
     display: none;
   }
-  .mobile-navigation ul {
-    background-color: green;
+  .mobileNavigation ul {
+    background-color: $color-primary;
     height: calc(100vh - 79px);
     width: 100vw;
     position: absolute;

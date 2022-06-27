@@ -1,5 +1,6 @@
 import React from "react";
-import "./Button.css";
+import styles from "./Button.module.scss";
+import classNames from "classnames";
 
 const STYLES = [
   "primary",
@@ -28,7 +29,11 @@ export default function Button({
 
   return (
     <button
-      className={`btn ${checkButtonStyle} ${checkButtonSize}`}
+      className={classNames(
+        styles.btn,
+        styles[checkButtonSize],
+        styles[checkButtonStyle]
+      )}
       onClick={onClick}
       type={type}
     >

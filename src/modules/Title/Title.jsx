@@ -1,7 +1,10 @@
-import "./Title.css";
+import styles from "./Title.module.scss";
+import classNames from "classnames";
 
 const STYLES = [
   "normal",
+  "gray",
+  "light",
   "secondary",
   "accent",
   "danger",
@@ -18,20 +21,34 @@ export default function Title({ children, titleStyle, level }) {
 
   return (
     <>
+      {level === undefined && (
+        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
+          {children}
+        </h1>
+      )}
+
       {level === 1 && (
-        <h1 className={`title--1 ${checkTitleStyle}`}>{children}</h1>
+        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
+          {children}
+        </h1>
       )}
 
       {level === 2 && (
-        <h2 className={`title--2 ${checkTitleStyle}`}>{children}</h2>
+        <h2 className={classNames(styles.title2, styles[checkTitleStyle])}>
+          {children}
+        </h2>
       )}
 
       {level === 3 && (
-        <h3 className={`title--3 ${checkTitleStyle}`}>{children}</h3>
+        <h3 className={classNames(styles.title3, styles[checkTitleStyle])}>
+          {children}
+        </h3>
       )}
 
       {level === 4 && (
-        <h4 className={`title--4 ${checkTitleStyle}`}>{children}</h4>
+        <h4 className={classNames(styles.title4, styles[checkTitleStyle])}>
+          {children}
+        </h4>
       )}
     </>
   );

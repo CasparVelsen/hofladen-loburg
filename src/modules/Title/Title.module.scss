@@ -1,0 +1,96 @@
+@import "src/styles/spacing";
+@import "src/styles/variables";
+
+.title {
+  margin: s(4) 0;
+  width: fit-content;
+}
+.title1 {
+  font-size: $heading-1-size;
+  font-weight: 600;
+  margin: s(4) 0;
+  width: fit-content;
+}
+.title2 {
+  font-size: $heading-2-size;
+  font-weight: 600;
+  margin: s(4) 0;
+  width: fit-content;
+}
+.title3 {
+  font-size: $heading-3-size;
+  font-weight: 400;
+  margin: s(3) 0;
+  width: fit-content;
+}
+
+.title4 {
+  font-size: $heading-4-size;
+  font-weight: 300;
+  margin: s(2) 0;
+  width: fit-content;
+}
+
+/* Ttile Colors and Styles */
+
+.normal {
+  color: $text-black-matt;
+}
+
+.gray {
+  color: $text-gray;
+}
+
+.light {
+  color: $text-white-matt;
+}
+
+.primary {
+  color: $color-primary;
+}
+
+.secondary {
+  color: $color-secondary;
+}
+
+.accent {
+  color: $color-accent;
+}
+
+.danger {
+  color: $color-accent-secondary;
+}
+
+.succes {
+  color: $color-primary-light;
+}
+
+.primary--underlined {
+  color: $color-primary;
+  border: none;
+  border-bottom: 2px solid $color-primary;
+}
+
+.secondary--underlined {
+  color: $color-secondary;
+  border: none;
+  border-bottom: 2px solid $color-secondary;
+}
+
+.accent--underlined {
+  color: $color-accent;
+  border: none;
+  border-bottom: 2px solid $color-accent;
+}
+
+.danger--underlined {
+  color: $color-accent-secondary;
+  border: none;
+  border-bottom: 2px solid $color-accent-secondary;
+}
+
+.succes--underlined {
+  color: $color-primary-light;
+  border: none;
+  border-bottom: 2px solid $color-primary-light;
+}

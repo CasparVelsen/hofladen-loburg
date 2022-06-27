@@ -1,15 +1,9 @@
-:root {
-  --primary: black;
-  --secondary: green;
-  --light: grey;
-  --accent: orange;
-  --danger: red;
-}
+@import "src/styles/variables";
 
 .paragraph {
   font-size: 16px;
   word-wrap: break-word;
-  width: fit-content;
+  width: 100%;
 }
 
 /* Paragraph text style */
@@ -32,22 +26,30 @@
 
 /* Paragraph text color */
 
-.primary {
-  color: var(--primary);
+.normal {
+  color: $text-black-matt;
 }
 
-.secondary {
-  color: var(--secondary);
+.gray {
+  color: $text-gray;
 }
 
 .light {
-  color: var(--light);
+  color: $text-white-matt;
+}
+
+.primary {
+  color: $color-primary;
+}
+
+.secondary {
+  color: $color-secondary;
 }
 
 .accent {
-  color: var(--accent);
+  color: $color-accent;
 }
 
 .danger {
-  color: var(--danger);
+  color: $color-accent-secondary;
 }

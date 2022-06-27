@@ -1,5 +1,8 @@
+@import "src/styles/spacing";
+@import "src/styles/variables";
+
 .footer {
-  background-color: #bbb;
+  background-color: $color-black;
   padding: 30px 50px 30px 50px;
 }
 
@@ -12,12 +15,13 @@
 .information {
   width: 60vw;
   display: flex;
-  gap: 30px;
+  gap: s(7);
   justify-content: space-between;
+  color: $text-gray;
 }
 
 .logo {
-  margin-top: 0.75rem;
+  margin-top: s(3);
   display: flex;
 }
 
@@ -32,7 +36,7 @@
   flex-direction: column;
   align-items: left;
   margin: 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: s(3);
   padding: 0;
 }
 
@@ -41,12 +45,12 @@
 }
 
 .mail {
-  color: gray;
+  color: $text-white-matt;
   text-decoration: none;
 }
 
 .divider {
-  color: grey;
+  color: $text-white-matt;
 }
 
 .stamp {
@@ -59,7 +63,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: s(12);
     padding: 0;
   }
   .information {
@@ -75,13 +79,13 @@
   .container {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: s(12);
     padding: 0;
   }
   .information {
     display: flex;
     flex-direction: column;
     padding: 0;
-    gap: 10px;
+    gap: s(2);
   }
 }

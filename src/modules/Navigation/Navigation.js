@@ -1,9 +1,9 @@
-import "./NavBar.css";
+import styles from "./NavBar.module.scss";
 import NavLinks from "./NavLinks";
 
 export default function Navigation() {
   return (
-    <nav className="navigation">
+    <nav className={styles.navigation}>
       <NavLinks />
     </nav>
   );

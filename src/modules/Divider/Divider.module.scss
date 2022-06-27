@@ -1,0 +1,8 @@
+@import "src/styles/spacing";
+
+.divider {
+  width: 100%;
+  background-color: gray;
+  height: 0.5px;
+  margin: s(7) 0;
+}
