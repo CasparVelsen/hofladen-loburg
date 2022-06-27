@@ -1,4 +1,4 @@
-import "./Hamburger.css";
+import "./Hamburger.scss";
 
 export default function Hamburger({ toggleMenu, active }) {
   console.log(active);

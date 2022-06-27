@@ -1,5 +1,5 @@
 import Hamburger from "../Hamburger/Hamburger";
-import "./NavBar.css";
+import "./NavBar.scss";
 import NavLinks from "./NavLinks";
 import { useState } from "react";
 

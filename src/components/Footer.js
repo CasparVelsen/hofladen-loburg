@@ -1,7 +1,7 @@
 import Divider from "../modules/Divider/Divider";
 import Title from "../modules/Title/Title";
 import Paragraph from "../modules/Paragraph/Paragraph";
-import "./Footer.css";
+import "./Footer.scss";
 
 export default function Footer() {
   return (

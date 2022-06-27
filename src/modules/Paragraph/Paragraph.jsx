@@ -1,4 +1,4 @@
-import "./Paragraph.css";
+import "./Paragraph.scss";
 
 const WEIGHTS = ["normal", "bold", "italic", "small"];
 

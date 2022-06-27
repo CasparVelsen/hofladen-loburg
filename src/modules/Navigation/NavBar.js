@@ -1,6 +1,6 @@
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
-import "./NavBar.css";
+import "./NavBar.scss";
 
 export default function NavBar() {
   return (

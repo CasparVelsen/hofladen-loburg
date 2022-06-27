@@ -1,7 +1,9 @@
+@import "src/styles/spacing";
+
 .nav ul {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: s(5);
 }
 .nav li {
   list-style: none;
@@ -20,7 +22,7 @@
   justify-content: center;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: s(2);
   color: white;
 }
 

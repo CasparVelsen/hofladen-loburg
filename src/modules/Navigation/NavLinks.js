@@ -1,4 +1,4 @@
-import "./NavBar.css";
+import "./NavBar.scss";
 import { NavLink } from "react-router-dom";
 
 export default function NavLinks({ toggleMenu }) {
