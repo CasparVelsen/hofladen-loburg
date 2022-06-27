@@ -1,3 +1,7 @@
 export default function ContactPage() {
-  return <h1>ContactPage</h1>;
+  return (
+    <div className="view">
+      <h1>ContactPage</h1>
+    </div>
+  );
 }

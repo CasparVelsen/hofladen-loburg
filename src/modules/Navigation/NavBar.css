@@ -1,15 +1,17 @@
-ul {
+.nav ul {
   display: flex;
   justify-content: space-between;
   gap: 20px;
 }
-li {
+.nav li {
   list-style: none;
 }
 
 .nav {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .styled-link {
@@ -20,10 +22,6 @@ li {
   color: black;
   padding: 10px;
   color: white;
-}
-
-.styled-link:active {
-  border-bottom: 2px solid white;
 }
 
 .mobile-navigation {

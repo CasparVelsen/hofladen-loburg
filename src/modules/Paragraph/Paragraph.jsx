@@ -1,6 +1,6 @@
 import "./Paragraph.css";
 
-const WEIGHTS = ["normal", "bold", "italic"];
+const WEIGHTS = ["normal", "bold", "italic", "small"];
 
 const STYLES = ["primary", "secondary", "light", "accent", "danger"];
 

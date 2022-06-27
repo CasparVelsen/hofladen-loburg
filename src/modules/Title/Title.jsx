@@ -27,11 +27,11 @@ export default function Title({ children, titleStyle, level }) {
       )}
 
       {level === 3 && (
-        <h3 className={`subtitle ${checkTitleStyle}`}>{children}</h3>
+        <h3 className={`title--3 ${checkTitleStyle}`}>{children}</h3>
       )}
 
       {level === 4 && (
-        <h4 className={`title ${checkTitleStyle}`}>{children}</h4>
+        <h4 className={`title--4 ${checkTitleStyle}`}>{children}</h4>
       )}
     </>
   );

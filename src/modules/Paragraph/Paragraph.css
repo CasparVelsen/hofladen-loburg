@@ -9,6 +9,7 @@
 .paragraph {
   font-size: 16px;
   word-wrap: break-word;
+  width: fit-content;
 }
 
 /* Paragraph text style */
@@ -23,6 +24,10 @@
 
 .italic {
   font-style: italic;
+}
+
+.small {
+  font-size: 12px;
 }
 
 /* Paragraph text color */
