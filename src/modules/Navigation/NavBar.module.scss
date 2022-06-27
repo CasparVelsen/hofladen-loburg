@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.styled-link {
+.styledLink {
   width: fit-content;
   display: flex;
   justify-content: center;
@@ -26,19 +26,19 @@
   color: white;
 }
 
-.mobile-navigation {
+.mobileNavigation {
   display: none;
 }
 
 @media (max-width: 768px) {
-  .mobile-navigation {
+  .mobileNavigation {
     display: flex;
     align-items: center;
   }
   .navigation {
     display: none;
   }
-  .mobile-navigation ul {
+  .mobileNavigation ul {
     background-color: green;
     height: calc(100vh - 79px);
     width: 100vw;

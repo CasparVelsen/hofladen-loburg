@@ -1,4 +1,5 @@
-import "./Paragraph.scss";
+import styles from "./Paragraph.module.scss";
+import classNames from "classnames";
 
 const WEIGHTS = ["normal", "bold", "italic", "small"];
 
@@ -9,7 +10,13 @@ export default function Paragraph({ children, textStyle, textColor }) {
   const checkTextColor = STYLES.includes(textColor) ? textColor : STYLES[0];
 
   return (
-    <p className={`paragraph ${checkTextStyle} ${checkTextColor}`}>
+    <p
+      className={classNames(
+        styles.paragraph,
+        styles[checkTextStyle],
+        styles[checkTextColor]
+      )}
+    >
       {children}
     </p>
   );

@@ -1,10 +1,4 @@
-:root {
-  --primary: black;
-  --secondary: green;
-  --light: grey;
-  --accent: orange;
-  --danger: red;
-}
+@import "src/styles/variables";
 
 .paragraph {
   font-size: 16px;
@@ -33,21 +27,21 @@
 /* Paragraph text color */
 
 .primary {
-  color: var(--primary);
+  color: $color-primary;
 }
 
 .secondary {
-  color: var(--secondary);
+  color: $color-secondary;
 }
 
 .light {
-  color: var(--light);
+  color: $color-primary-light;
 }
 
 .accent {
-  color: var(--accent);
+  color: $color-accent;
 }
 
 .danger {
-  color: var(--danger);
+  color: $color-accent-secondary;
 }

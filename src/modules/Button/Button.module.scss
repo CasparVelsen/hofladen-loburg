@@ -1,11 +1,4 @@
-:root {
-  --primary: green;
-  --warning: orange;
-  --danger: red;
-  --succes: blue;
-  --white: white;
-  --dark: grey;
-}
+@import "src/styles/variables";
 
 .btn {
   font-weight: 400;
@@ -19,61 +12,59 @@
 }
 
 /* Button Colors and Styles */
-
 .primary {
-  background-color: var(--primary);
-  color: var(--white);
+  background-color: $color-primary;
+  color: white;
   border: none;
 }
 
 .warning {
-  background-color: var(--warning);
-  color: var(--dark);
+  background-color: $color-accent;
+  color: $text-black-matt;
   border: none;
 }
 
 .danger {
-  background-color: var(--danger);
-  color: var(--white);
+  background-color: $color-accent-secondary;
+  color: white;
   border: none;
 }
 
 .succes {
-  background-color: var(--succes);
-  color: var(--white);
+  background-color: $color-primary-light;
+  color: $text-black-matt;
   border: none;
 }
 
 .primary--outline {
   background-color: transparent;
-  color: var(--primary);
+  color: $color-primary;
   border: none;
-  border: 2px solid var(--primary);
+  border: 2px solid $color-primary;
 }
 
 .warning--outline {
   background-color: transparent;
-  color: var(--warning);
+  color: $color-accent;
   border: none;
-  border: 2px solid var(--warning);
+  border: 2px solid $color-accent;
 }
 
 .danger--outline {
   background-color: transparent;
-  color: var(--danger);
+  color: $color-accent-secondary;
   border: none;
-  border: 2px solid var(--danger);
+  border: 2px solid $color-accent-secondary;
 }
 
 .succes--outline {
   background-color: transparent;
-  color: var(--succes);
+  color: $color-primary-light;
   border: none;
-  border: 2px solid var(--succes);
+  border: 2px solid $color-primary-light;
 }
 
 /* Button Sizes */
-
 .small {
   padding: 10px 25px;
   font-size: 14px;

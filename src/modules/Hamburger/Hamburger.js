@@ -1,12 +1,12 @@
-import "./Hamburger.scss";
+import styles from "./Hamburger.module.scss";
 
 export default function Hamburger({ toggleMenu, active }) {
   console.log(active);
   return (
-    <div className="burger" onClick={toggleMenu}>
-      <div className={`${active ? "bar1" : ""} `}></div>
-      <div className={`${active ? "bar2" : ""} `}></div>
-      <div className={`${active ? "bar3" : ""} `}></div>
+    <div className={styles.burger} onClick={toggleMenu}>
+      <div className={active ? styles.bar1 : ""}></div>
+      <div className={active ? styles.bar2 : ""}></div>
+      <div className={active ? styles.bar3 : ""}></div>
     </div>
   );
 }

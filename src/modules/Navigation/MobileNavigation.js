@@ -1,5 +1,5 @@
 import Hamburger from "../Hamburger/Hamburger";
-import "./NavBar.scss";
+import styles from "./NavBar.module.scss";
 import NavLinks from "./NavLinks";
 import { useState } from "react";
 
@@ -11,7 +11,7 @@ export default function MobileNavigation() {
   }
 
   return (
-    <nav className="mobile-navigation">
+    <nav className={styles.mobileNavigation}>
       {isOpen && <NavLinks toggleMenu={toggleMenu} />}
       <Hamburger toggleMenu={toggleMenu} active={isOpen} />
     </nav>

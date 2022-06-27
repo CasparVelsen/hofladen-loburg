@@ -1,10 +1,10 @@
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
-import "./NavBar.scss";
+import styles from "./NavBar.module.scss";
 
 export default function NavBar() {
   return (
-    <div className="nav">
+    <div className={styles.nav}>
       <div>Logo</div>
       <Navigation />
       <MobileNavigation />

@@ -1,7 +1,8 @@
 @import "src/styles/spacing";
+@import "src/styles/variables";
 
 .footer {
-  background-color: #bbb;
+  background-color: $color-black;
   padding: 30px 50px 30px 50px;
 }
 
@@ -16,6 +17,7 @@
   display: flex;
   gap: s(7);
   justify-content: space-between;
+  color: $text-grey;
 }
 
 .logo {
@@ -43,12 +45,12 @@
 }
 
 .mail {
-  color: gray;
+  color: $text-white-matt;
   text-decoration: none;
 }
 
 .divider {
-  color: grey;
+  color: $text-white-matt;
 }
 
 .stamp {
