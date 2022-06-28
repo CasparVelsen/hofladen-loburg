@@ -1,5 +1,6 @@
 @import "src/styles/spacing";
 @import "src/styles/variables";
+@import "src/styles/breakpoints";
 
 .footer {
   background-color: $color-black;
@@ -62,7 +63,7 @@
   justify-content: right;
 }
 
-@media (max-width: 768px) {
+@include tablet {
   .container {
     display: flex;
     flex-direction: column;
@@ -78,7 +79,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@include phone {
   .container {
     display: flex;
     flex-direction: column;

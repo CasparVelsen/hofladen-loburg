@@ -1,4 +1,5 @@
 @import "src/styles/spacing";
+@import "src/styles/breakpoints";
 
 .burger {
   display: none;
@@ -27,7 +28,7 @@
   transform: translateY(-8px) rotate(-45deg);
 }
 
-@media (max-width: 768px) {
+@include tablet {
   .burger {
     display: block;
   }

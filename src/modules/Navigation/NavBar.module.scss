@@ -1,5 +1,16 @@
 @import "src/styles/spacing";
 @import "src/styles/variables";
+@import "src/styles/breakpoints";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 s(5);
+  background-color: $color-primary;
+  height: 80px;
+}
 
 .nav ul {
   display: flex;
@@ -10,11 +21,24 @@
   list-style: none;
 }
 
-.nav {
+.navActive {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 0 20px;
+  background-color: $color-primary;
+  height: 80px;
+  position: fixed;
+}
+
+.navActive ul {
+  display: flex;
+  justify-content: space-between;
+  gap: s(5);
+}
+.navActive li {
+  list-style: none;
 }
 
 .styledLink {
@@ -34,19 +58,22 @@
   overflow-y: hidden;
 }
 
-@media (max-width: 768px) {
-  .mobileNavigation {
-    display: flex;
-    align-items: center;
-  }
+@include tablet {
   .navigation {
     display: none;
   }
+
+  .mobileNavigation {
+    display: flex;
+    align-items: center;
+    top: 0;
+  }
+
   .mobileNavigation ul {
     background-color: $color-primary;
     height: calc(100vh - 79px);
     width: 100vw;
-    position: absolute;
+    position: fixed;
     top: 58px;
     left: 0;
     display: flex;

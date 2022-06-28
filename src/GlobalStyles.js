@@ -12,26 +12,17 @@ export default createGlobalStyle`
     font-family: sans-serif;
     font-size: 112.5%;
   }
-  main {
-    margin: 0 20px;
-  }
   input, label, button, textarea {
     font-size: 1em;
   }
 
   header {
-      padding: 0 20px;
       height: 80px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #3f7d20;
       font-size: 1.3rem;
       color: white;
 
-  }
-
-  .view {
-    min-height: calc(100vh - 80px - 1rem);
   }
 `;

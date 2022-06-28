@@ -1,0 +1,29 @@
+@import "src/styles/spacing";
+@import "src/styles/breakpoints";
+
+.hero {
+  height: calc(100vh - 80px);
+  width: 100%;
+  background: url("../../images/test-hero-unsplash.jpg") no-repeat center /
+    cover;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  padding: 15vw;
+}
+
+.hero div {
+  width: 100%;
+}
+
+@include tablet {
+  .hero {
+    padding: 10vw;
+  }
+}
+
+@include phone {
+  .hero {
+    padding: s(5);
+  }
+}

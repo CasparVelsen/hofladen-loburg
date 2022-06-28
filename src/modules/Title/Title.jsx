@@ -21,12 +21,16 @@ export default function Title({ children, titleStyle, level }) {
 
   return (
     <>
-      {level === undefined && (
-        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
+      {level === "large" && (
+        <h1 className={classNames(styles.titleLarge, styles[checkTitleStyle])}>
           {children}
         </h1>
       )}
-
+      {level === "medium" && (
+        <h1 className={classNames(styles.titleMedium, styles[checkTitleStyle])}>
+          {children}
+        </h1>
+      )}
       {level === 1 && (
         <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
           {children}

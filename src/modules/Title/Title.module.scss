@@ -1,10 +1,7 @@
 @import "src/styles/spacing";
 @import "src/styles/variables";
+@import "src/styles/breakpoints";
 
-.title {
-  margin: s(4) 0;
-  width: fit-content;
-}
 .title1 {
   font-size: $heading-1-size;
   font-weight: 600;
@@ -23,12 +20,38 @@
   margin: s(3) 0;
   width: fit-content;
 }
-
 .title4 {
   font-size: $heading-4-size;
   font-weight: 300;
   margin: s(2) 0;
   width: fit-content;
+}
+.titleLarge {
+  font-size: 106px;
+  font-weight: 600;
+  margin: s(2) 0;
+  width: fit-content;
+}
+.titleMedium {
+  font-size: 32px;
+  font-weight: 600;
+  margin: s(2) 0;
+  width: fit-content;
+}
+
+@include tablet {
+  .titleLarge {
+    font-size: 86px;
+  }
+}
+
+@include phone {
+  .titleLarge {
+    font-size: 66px;
+  }
+  .titleMedium {
+    font-size: $heading-1-size;
+  }
 }
 
 /* Ttile Colors and Styles */
@@ -42,7 +65,7 @@
 }
 
 .light {
-  color: $text-white-matt;
+  color: white;
 }
 
 .primary {
