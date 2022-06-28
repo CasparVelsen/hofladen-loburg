@@ -21,6 +21,31 @@ export default function Title({ children, titleStyle, level }) {
 
   return (
     <>
+      {level === undefined && (
+        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
+          {children}
+        </h1>
+      )}
+      {level === 1 && (
+        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
+          {children}
+        </h1>
+      )}
+      {level === 2 && (
+        <h2 className={classNames(styles.title2, styles[checkTitleStyle])}>
+          {children}
+        </h2>
+      )}
+      {level === 3 && (
+        <h3 className={classNames(styles.title3, styles[checkTitleStyle])}>
+          {children}
+        </h3>
+      )}
+      {level === 4 && (
+        <h4 className={classNames(styles.title4, styles[checkTitleStyle])}>
+          {children}
+        </h4>
+      )}
       {level === "large" && (
         <h1 className={classNames(styles.titleLarge, styles[checkTitleStyle])}>
           {children}
@@ -30,29 +55,6 @@ export default function Title({ children, titleStyle, level }) {
         <h1 className={classNames(styles.titleMedium, styles[checkTitleStyle])}>
           {children}
         </h1>
-      )}
-      {level === 1 && (
-        <h1 className={classNames(styles.title1, styles[checkTitleStyle])}>
-          {children}
-        </h1>
-      )}
-
-      {level === 2 && (
-        <h2 className={classNames(styles.title2, styles[checkTitleStyle])}>
-          {children}
-        </h2>
-      )}
-
-      {level === 3 && (
-        <h3 className={classNames(styles.title3, styles[checkTitleStyle])}>
-          {children}
-        </h3>
-      )}
-
-      {level === 4 && (
-        <h4 className={classNames(styles.title4, styles[checkTitleStyle])}>
-          {children}
-        </h4>
       )}
     </>
   );

@@ -1,0 +1,47 @@
+@import "src/styles/variables";
+@import "src/styles/breakpoints";
+@import "src/styles/spacing";
+
+.section {
+  padding: 140px 15vw;
+}
+
+// Colors
+
+.white {
+  background-color: white;
+}
+
+.lightgray {
+  background-color: #eee;
+}
+
+.darkgray {
+  background-color: #ddd;
+}
+
+.primary {
+  background-color: $color-primary;
+}
+
+.secondary {
+  background-color: $color-secondary;
+}
+
+.accent {
+  background-color: $color-accent;
+}
+
+// Media Query
+
+@include tablet {
+  .section {
+    padding: 100px 10vw;
+  }
+}
+
+@include phone {
+  .section {
+    padding: 60px s(5);
+  }
+}
