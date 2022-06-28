@@ -1,6 +1,6 @@
-import Divider from "../modules/Divider/Divider";
-import Title from "../modules/Title/Title";
-import Paragraph from "../modules/Paragraph/Paragraph";
+import Divider from "../../../modules/Divider/Divider";
+import Title from "../../../modules/Title/Title";
+import Paragraph from "../../../modules/Paragraph/Paragraph";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {

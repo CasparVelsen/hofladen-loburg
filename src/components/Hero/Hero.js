@@ -1,5 +1,4 @@
 import styles from "./hero.module.scss";
-import testImage from "../../images/test-hero-unsplash.jpg";
 import Title from "../../modules/Title/Title";
 import Paragraph from "../../modules/Paragraph/Paragraph";
 import Button from "../../modules/Button/Button";

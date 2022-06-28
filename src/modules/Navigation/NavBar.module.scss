@@ -51,12 +51,23 @@
   color: white;
 }
 
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: s(10);
+}
+
 .mobileNavigation {
   display: none;
 }
 
 .mobileNavBar {
   overflow-y: hidden;
+}
+
+.socialIcon {
+  position: absolute;
+  bottom: calc(-100vh + 80px + s(5));
 }
 
 @include tablet {
