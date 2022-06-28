@@ -4,13 +4,15 @@ import classNames from "classnames";
 
 const STYLES = [
   "primary",
-  "accent",
+  "secondary",
   "danger",
+  "warning",
   "succes",
-  "primary--outline",
-  "warning--outline",
-  "danger--outline",
-  "succes--outline",
+  "primary--outlined",
+  "secondary--outlined",
+  "warning--outlined",
+  "danger--outlined",
+  "succes--outlined",
 ];
 
 const SIZE = ["small", "medium", "large"];

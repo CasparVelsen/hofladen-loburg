@@ -39,7 +39,7 @@
   width: fit-content;
 }
 
-@include tablet {
+@include pc {
   .titleLarge {
     font-size: 86px;
   }
@@ -50,7 +50,7 @@
     font-size: 66px;
   }
   .titleMedium {
-    font-size: $heading-1-size;
+    font-size: $heading-2-size;
   }
 }
 
