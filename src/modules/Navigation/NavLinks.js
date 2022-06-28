@@ -6,7 +6,7 @@ export default function NavLinks({ toggleMenu }) {
     <ul>
       <li onClick={toggleMenu}>
         <NavLink className={styles.styledLink} to="/">
-          Homepage
+          Start
         </NavLink>
       </li>
       <li onClick={toggleMenu}>

@@ -1,9 +1,15 @@
 @import "src/styles/spacing";
+@import "src/styles/breakpoints";
 
 .container {
   display: flex;
   gap: s(10);
   align-items: center;
+  justify-content: space-between;
+}
+
+.info {
+  width: 450px;
 }
 
 .logo {
@@ -14,4 +20,14 @@
 .buttonAlign {
   display: flex;
   gap: s(5);
+}
+
+@include tablet {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    width: 100%;
+  }
 }

@@ -20,7 +20,7 @@ export default function Hero() {
         </Paragraph>
         <NavLink to="/assortment">
           <Button buttonStyle="secondary" buttonSize="large">
-            Click me
+            Unsere Produkte
           </Button>
         </NavLink>
       </div>
