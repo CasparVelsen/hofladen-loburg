@@ -4,7 +4,7 @@ import AssortmentPage from "./pages/AssortmentPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import NavBar from "./modules/Navigation/NavBar";
-import Footer from "./components/Hero/Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (

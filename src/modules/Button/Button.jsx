@@ -4,7 +4,7 @@ import classNames from "classnames";
 
 const STYLES = [
   "primary",
-  "warning",
+  "accent",
   "danger",
   "succes",
   "primary--outline",
