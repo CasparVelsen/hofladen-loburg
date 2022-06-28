@@ -24,7 +24,7 @@ export default function HomePage() {
         Something
       </Button>
 
-      <Title titleStyle="normal">Title example</Title>
+      <Title titleStyle="normal">Title dcjnsdjcnsdjk</Title>
       <Title titleStyle="gray">Title example</Title>
       <Title titleStyle="light">Title example</Title>
       <Title titleStyle="secondary">Title example</Title>

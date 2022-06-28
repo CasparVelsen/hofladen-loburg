@@ -1,8 +1,9 @@
 @import "src/styles/variables";
+@import "src/styles/spacing";
 
 .btn {
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 3px;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -66,16 +67,16 @@
 
 /* Button Sizes */
 .small {
-  padding: 10px 25px;
+  padding: s(2.5) s(6);
   font-size: 14px;
 }
 
 .medium {
-  padding: 10px 25px;
+  padding: s(2.5) s(7);
   font-size: 16px;
 }
 
 .large {
-  padding: 10px 25px;
+  padding: s(2.5) s(7.5);
   font-size: 18px;
 }
