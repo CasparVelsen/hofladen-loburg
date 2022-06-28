@@ -19,10 +19,10 @@ export default function IntroductionSection() {
           </Paragraph>
           <div className={styles.buttonAlign}>
             <NavLink to="/about">
-              <Button buttonStyle="primary-outlined">Über uns</Button>
+              <Button buttonStyle="primary">Über uns</Button>
             </NavLink>
             <NavLink to="/contact">
-              <Button buttonStyle="secondary">Kontakt</Button>
+              <Button buttonStyle="secondary-outlined">Kontakt</Button>
             </NavLink>
           </div>
         </div>
