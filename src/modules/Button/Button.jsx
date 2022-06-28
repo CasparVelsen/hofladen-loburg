@@ -8,11 +8,11 @@ const STYLES = [
   "danger",
   "warning",
   "succes",
-  "primary--outlined",
-  "secondary--outlined",
-  "warning--outlined",
-  "danger--outlined",
-  "succes--outlined",
+  "primary-outlined",
+  "secondary-outlined",
+  "warning-outlined",
+  "danger-outlined",
+  "succes-outlined",
 ];
 
 const SIZE = ["small", "medium", "large"];

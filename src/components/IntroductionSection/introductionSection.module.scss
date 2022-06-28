@@ -1,0 +1,17 @@
+@import "src/styles/spacing";
+
+.container {
+  display: flex;
+  gap: s(10);
+  align-items: center;
+}
+
+.logo {
+  border: 0.5px solid gray;
+  padding: 75px;
+}
+
+.buttonAlign {
+  display: flex;
+  gap: s(5);
+}

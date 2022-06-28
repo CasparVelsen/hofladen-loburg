@@ -19,7 +19,7 @@ export default function Hero() {
           abzuholen
         </Paragraph>
         <NavLink to="/assortment">
-          <Button buttonStyle="accent" buttonSize="large">
+          <Button buttonStyle="secondary" buttonSize="large">
             Click me
           </Button>
         </NavLink>
