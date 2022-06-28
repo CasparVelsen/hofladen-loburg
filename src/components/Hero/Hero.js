@@ -13,7 +13,7 @@ export default function Hero() {
           Hofladen Loburg
         </Title>
         <Title level="large" titleStyle="light">
-          Regional, Sessional
+          Euer Slogan...
         </Title>
         <Paragraph textColor="light">
           Hier kommt eine kurze Beschreibung des Hofladens hin, um den User
