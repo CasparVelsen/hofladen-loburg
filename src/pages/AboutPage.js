@@ -12,11 +12,11 @@ export default function AboutPage() {
       <Button buttonStyle="danger">Something</Button>
       <Button buttonStyle="warning">Something</Button>
       <Button buttonStyle="succes">Something</Button>
-      <Button buttonStyle="primary--outlined">Something</Button>
-      <Button buttonStyle="secondary--outlined">Something</Button>
-      <Button buttonStyle="warning--outlined">Something</Button>
-      <Button buttonStyle="danger--outlined">Something</Button>
-      <Button buttonStyle="succes--outlined">Something</Button>
+      <Button buttonStyle="primary-outlined">Something</Button>
+      <Button buttonStyle="secondary-outlined">Something</Button>
+      <Button buttonStyle="warning-outlined">Something</Button>
+      <Button buttonStyle="danger-outlined">Something</Button>
+      <Button buttonStyle="succes-outlined">Something</Button>
       <Button buttonStyle="primary" buttonSize="small">
         Something
       </Button>
