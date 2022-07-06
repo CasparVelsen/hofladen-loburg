@@ -21,6 +21,7 @@ export default function MobileNavigation({ isOpen, toggleMenu }) {
             src={Logo}
             height="120px"
             alt="Logo"
+            onClick={toggleMenu}
           />
         </NavLink>
       )}

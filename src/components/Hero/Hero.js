@@ -12,14 +12,14 @@ export default function Hero() {
           Hofladen Loburg
         </Title>
         <Title level="large" titleStyle="light">
-          Euer Slogan...
+          Köstlichkeiten und Kultur
         </Title>
         <Paragraph textColor="light">
           Hier kommt eine kurze Beschreibung des Hofladens hin, um den User
           abzuholen
         </Paragraph>
         <NavLink to="/assortment">
-          <Button buttonStyle="secondary" buttonSize="large">
+          <Button buttonStyle="danger" buttonSize="large">
             Unsere Produkte
           </Button>
         </NavLink>

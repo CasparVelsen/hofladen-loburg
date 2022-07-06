@@ -4,12 +4,15 @@ import Title from "../../modules/Title/Title";
 import Paragraph from "../../modules/Paragraph/Paragraph";
 import Button from "../../modules/Button/Button";
 import { NavLink } from "react-router-dom";
+import Logo from "../../images/logo.jpg";
 
 export default function IntroductionSection() {
   return (
     <Section color="white">
       <div className={styles.container}>
-        <div className={styles.logo}>Logo/Image</div>
+        <div className={styles.logo}>
+          <img src={Logo} alt="logo" height="100%" />
+        </div>
         <div className={styles.info}>
           <Title level="medium">Interesse wecken</Title>
           <Paragraph>
