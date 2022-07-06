@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export default createGlobalStyle`
   * {
     box-sizing: border-box;
+    font-family: 'Open Sans'
   }
   html, body, #root {
     height: 100%;

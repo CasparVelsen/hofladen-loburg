@@ -1,0 +1,43 @@
+@import "src/styles/spacing";
+@import "src/styles/variables";
+
+.galeryContainer {
+  width: 100%;
+  display: flex;
+  gap: s(10);
+  overflow-x: auto;
+  margin-top: s(6);
+  position: relative;
+}
+
+.product {
+  background-color: white;
+  border-radius: 3px;
+}
+
+.productImage {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+.productName {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  bottom: 230px;
+  font-size: $heading-1-size;
+  font-weight: bold;
+  color: white;
+}
+
+.productLink {
+  padding: 20px;
+  background-color: $color-secondary;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
