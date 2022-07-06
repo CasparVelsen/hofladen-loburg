@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 import { useState } from "react";
 import styles from "./NavBar.module.scss";
 import classNames from "classnames";
-import Logo from "../../images/logo-negativ.jpg";
+import Logo from "../../images/logos/logo-negativ.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function NavBar() {

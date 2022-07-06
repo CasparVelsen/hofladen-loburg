@@ -1,43 +1,68 @@
 @import "src/styles/spacing";
 @import "src/styles/variables";
+@import "src/styles/breakpoints";
+
+.section {
+  padding: 140px 0 140px 20px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .galeryContainer {
   width: 100%;
   display: flex;
   gap: s(10);
   overflow-x: auto;
-  margin-top: s(6);
+  margin: s(10) 0;
   position: relative;
 }
 
-.product {
-  background-color: white;
-  border-radius: 3px;
-}
-
 .productImage {
-  height: 400px;
-  width: 300px;
+  height: 300px;
+  width: 400px;
   display: flex;
   justify-content: center;
-  background-color: #ccc;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .productName {
   position: absolute;
+  bottom: 0;
   display: flex;
   justify-content: center;
-  width: 300px;
-  bottom: 230px;
+  width: 400px;
+  padding: 20px;
   font-size: $heading-1-size;
   font-weight: bold;
   color: white;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
-.productLink {
-  padding: 20px;
-  background-color: $color-secondary;
-  display: flex;
-  justify-content: center;
-  color: white;
+@include tablet {
+  .section {
+    padding: 100px 0 100px 10vw;
+  }
+  .productImage {
+    width: 300px;
+    height: 400px;
+  }
+  .productName {
+    width: 300px;
+  }
+}
+
+@include phone {
+  .section {
+    padding: 60px 0 60px 20px;
+  }
+  .productImage {
+    width: 250px;
+    height: 400px;
+  }
+  .productName {
+    width: 250px;
+  }
 }

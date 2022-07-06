@@ -1,19 +1,27 @@
 const categories = [
   {
     name: "Gemüse",
-    img: "erdbeeren-img",
+    img: require("../images/productImages/vegtables-photo-us.jpg"),
   },
   {
     name: "Obst",
-    img: "spagel-img",
+    img: require("../images/productImages/fruits-photo-us.jpg"),
   },
   {
-    name: "Feinkost",
-    img: "äpfel-img",
+    name: "Wildfleisch",
+    img: require("../images/productImages/meat-photo-us.jpg"),
   },
   {
-    name: "Kürbis",
-    img: "kürbis-img",
+    name: "Gewürze & Kräuter",
+    img: require("../images/productImages/herbs-photo-us.jpg"),
+  },
+  {
+    name: "Marmelade",
+    img: require("../images/productImages/meat-photo-us.jpg"),
+  },
+  {
+    name: "Getränke",
+    img: require("../images/productImages/meat-photo-us.jpg"),
   },
 ];
 

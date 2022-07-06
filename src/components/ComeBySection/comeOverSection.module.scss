@@ -1,0 +1,27 @@
+@import "src/styles/variables";
+@import "src/styles/spacing";
+
+.inviteCard {
+  background-color: $text-black-matt;
+  border-radius: 5px;
+  padding: 40px 20px;
+}
+
+.buttonAlign {
+  display: flex;
+  gap: s(5);
+  margin: s(6) 0;
+}
+
+.adresse {
+  display: flex;
+  flex-direction: column;
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+  padding: 0 20px s(3);
+  width: fit-content;
+}
+
+.openingHoursCard {
+}

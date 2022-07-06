@@ -1,26 +1,25 @@
-import Section from "../../modules/Section/Section";
 import Title from "../../modules/Title/Title";
+import Button from "../../modules/Button/Button";
 import styles from "./productsOverviewSection.module.scss";
 import categories from "../../data/categories";
-import { Navigate } from "react-router-dom";
 
 export default function ProductsOverviewSection() {
   return (
-    <Section color="lightgray">
-      <div>
-        <Title level="medium">Unsere Produkte</Title>
-        <div className={styles.galeryContainer}>
-          {categories.map((data) => (
-            <div className={styles.product}>
-              <div className={styles.productImage}>
-                <img src={data.img} />
-              </div>
-              <div className={styles.productName}>{data.name}</div>
-              <div className={styles.productLink}>Entdecken</div>
+    <div className={styles.section}>
+      <Title level="medium">Unsere Produkte</Title>
+      <div className={styles.galeryContainer}>
+        {categories.map((data) => (
+          <div>
+            <div className={styles.productImage}>
+              <img src={data.img} height="100%" />
             </div>
-          ))}
-        </div>
+            <div className={styles.productName}>{data.name}</div>
+          </div>
+        ))}
       </div>
-    </Section>
+      <Button buttonStyle="danger" buttonSize="large">
+        Entdecken
+      </Button>
+    </div>
   );
 }

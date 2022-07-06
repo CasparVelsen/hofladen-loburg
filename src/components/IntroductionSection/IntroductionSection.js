@@ -4,7 +4,7 @@ import Title from "../../modules/Title/Title";
 import Paragraph from "../../modules/Paragraph/Paragraph";
 import Button from "../../modules/Button/Button";
 import { NavLink } from "react-router-dom";
-import Logo from "../../images/logo.jpg";
+import Logo from "../../images/logos/logo.jpg";
 
 export default function IntroductionSection() {
   return (

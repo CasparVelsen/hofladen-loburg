@@ -2,7 +2,7 @@ import Hamburger from "../Hamburger/Hamburger";
 import styles from "./NavBar.module.scss";
 import NavLinks from "./NavLinks";
 import { BsInstagram } from "react-icons/bs";
-import Logo from "../../images/logo-negativ.jpg";
+import Logo from "../../images/logos/logo-negativ.jpg";
 import { NavLink } from "react-router-dom";
 
 export default function MobileNavigation({ isOpen, toggleMenu }) {
