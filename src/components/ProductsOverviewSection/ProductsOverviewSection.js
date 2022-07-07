@@ -10,12 +10,12 @@ export default function ProductsOverviewSection() {
       <Title level="medium">Unsere Produkte</Title>
       <div className={styles.galeryContainer}>
         {categories.map((data) => (
-          <div>
+          <NavLink to="/products">
             <div className={styles.productImage}>
               <img src={data.img} height="100%" />
             </div>
             <div className={styles.productName}>{data.name}</div>
-          </div>
+          </NavLink>
         ))}
       </div>
       <NavLink to="/products">

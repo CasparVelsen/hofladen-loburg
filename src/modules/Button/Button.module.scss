@@ -20,30 +20,35 @@
   background-color: $color-primary;
   color: white;
   border: none;
+  border: 2px solid $color-primary;
 }
 
 .secondary {
   background-color: $color-secondary;
   color: white;
   border: none;
+  border: 2px solid $color-secondary;
 }
 
 .danger {
   background-color: $color-accent;
   color: white;
   border: none;
+  border: 2px solid $color-accent;
 }
 
 .warning {
   background-color: $color-accent-secondary;
   color: $text-black-matt;
   border: none;
+  border: 2px solid $color-accent-secondary;
 }
 
 .succes {
   background-color: $color-primary-light;
   color: $text-black-matt;
   border: none;
+  border: 2px solid $color-primary-light;
 }
 
 .primary-outlined {
