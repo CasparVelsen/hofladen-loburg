@@ -7,7 +7,6 @@ export default function Footer() {
   return (
     <div className={styles.footer}>
       <div className={styles.container}>
-        <div className={styles.logo}>Logo</div>
         <div className={styles.information}>
           <div className={styles.row}>
             <Title level={3} titleStyle="light">
@@ -58,8 +57,8 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <Divider color="normal" size="large" />
-      <div classNameName={styles.stamp}>
+      <Divider />
+      <div className={styles.stamp}>
         <Paragraph textColor="gray" textStyle="small">
           &copy;{new Date().getFullYear()} HOFLADEN LOBURG | All right reserved
           | Terms of service | Privacy |
