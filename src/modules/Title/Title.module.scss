@@ -27,10 +27,12 @@
   width: fit-content;
 }
 .titleLarge {
-  font-size: 106px;
+  font-size: 96px;
   font-weight: 600;
   margin: s(2) 0;
   width: fit-content;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 .titleMedium {
   font-size: 48px;
@@ -39,15 +41,18 @@
   width: fit-content;
 }
 
-@include pc {
+@include tablet {
   .titleLarge {
-    font-size: 86px;
+    font-size: 66px;
+  }
+  .titleMedium {
+    font-size: 32px;
   }
 }
 
 @include phone {
   .titleLarge {
-    font-size: 66px;
+    font-size: 48px;
   }
 }
 
@@ -62,7 +67,7 @@
 }
 
 .light {
-  color: $text-white-matt;
+  color: white;
 }
 
 .primary {

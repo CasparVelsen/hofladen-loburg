@@ -1,15 +1,18 @@
 @import "src/styles/variables";
+@import "src/styles/spacing";
 
 .paragraph {
   font-size: 16px;
   word-wrap: break-word;
   width: 100%;
+  margin: s(2) 0;
 }
 
 /* Paragraph text style */
 
 .normal {
-  font-weight: normal;
+  font-size: $heading-4-size;
+  font-weight: 300;
 }
 
 .bold {
@@ -35,7 +38,7 @@
 }
 
 .light {
-  color: $text-white-matt;
+  color: white;
 }
 
 .primary {

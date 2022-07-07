@@ -2,6 +2,7 @@ import Title from "../../modules/Title/Title";
 import Button from "../../modules/Button/Button";
 import styles from "./productsOverviewSection.module.scss";
 import categories from "../../data/categories";
+import { NavLink } from "react-router-dom";
 
 export default function ProductsOverviewSection() {
   return (
@@ -17,9 +18,11 @@ export default function ProductsOverviewSection() {
           </div>
         ))}
       </div>
-      <Button buttonStyle="danger" buttonSize="large">
-        Entdecken
-      </Button>
+      <NavLink to="/products">
+        <Button buttonStyle="danger" buttonSize="large">
+          Entdecken
+        </Button>
+      </NavLink>
     </div>
   );
 }

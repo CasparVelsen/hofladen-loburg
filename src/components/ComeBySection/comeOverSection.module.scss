@@ -1,10 +1,20 @@
 @import "src/styles/variables";
 @import "src/styles/spacing";
+@import "src/styles/breakpoints";
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .inviteCard {
   background-color: $text-black-matt;
   border-radius: 5px;
-  padding: 40px 20px;
+  padding: 40px 20px 30px;
+  position: relative;
+  width: 100%;
+  height: fit-content;
 }
 
 .buttonAlign {
@@ -14,14 +24,39 @@
 }
 
 .adresse {
-  display: flex;
-  flex-direction: column;
-  background-color: #444;
-  color: white;
+  background-color: $text-black-matt;
   border-radius: 5px;
-  padding: 0 20px s(3);
-  width: fit-content;
+  padding: 40px 20px 30px;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  color: white;
 }
 
 .openingHoursCard {
+  background-color: $color-secondary;
+  padding: 0 20px 20px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+@include tablet {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonAlign {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .openingHoursCard {
+    width: 100%;
+  }
+}
+
+@include phone {
+  .openingHoursCard {
+    width: 100%;
+  }
 }

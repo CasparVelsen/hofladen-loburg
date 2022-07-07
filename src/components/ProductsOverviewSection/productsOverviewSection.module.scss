@@ -3,7 +3,7 @@
 @import "src/styles/breakpoints";
 
 .section {
-  padding: 140px 0 140px 20px;
+  padding: 140px 0 140px;
   background-color: #eee;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   overflow-x: auto;
   margin: s(10) 0;
   position: relative;
+  padding-left: 20px;
 }
 
 .productImage {
@@ -39,11 +40,15 @@
   font-weight: bold;
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0 0 5px 5px;
 }
 
 @include tablet {
   .section {
-    padding: 100px 0 100px 10vw;
+    padding: 100px 0 100px;
+  }
+  .galeryContainer {
+    padding-left: 10vw;
   }
   .productImage {
     width: 300px;
@@ -56,7 +61,10 @@
 
 @include phone {
   .section {
-    padding: 60px 0 60px 20px;
+    padding: 60px 0 60px;
+  }
+  .galeryContainer {
+    padding-left: 20px;
   }
   .productImage {
     width: 250px;
